@@ -183,7 +183,7 @@ h1, h2, h3, h4, p {
 
 .htmltxt {
     position: absolute;
-    top: -53%; 
+    top: -70%; 
     left: 60px; 
     transform: translateY(-50%);
     color: #151515;
@@ -239,7 +239,7 @@ h1, h2, h3, h4, p {
 }
 .pytxt {
     position: absolute;
-    top: -25%; 
+    top: -30%; 
     left: 560px;
     transform: translateY(-50%);
     color: #151515;
@@ -255,7 +255,7 @@ h1, h2, h3, h4, p {
 }
 .reacttxt {
     position: absolute;
-    top: 30%; 
+    top: 25%; 
     left: 160px;
     transform: translateY(-50%);
     color: #151515;
@@ -263,7 +263,7 @@ h1, h2, h3, h4, p {
 }
 .figmatexp{
     position: absolute;
-    top: 60%; 
+    top: 57%; 
     left: 310px; 
     transform: translateY(-50%);
     color: #151515;
@@ -271,7 +271,7 @@ h1, h2, h3, h4, p {
 }
 .figmatxt {
     position: absolute;
-    top: 30%; 
+    top: 22%; 
     left: 310px;
     transform: translateY(-50%);
     color: #151515;
@@ -279,7 +279,7 @@ h1, h2, h3, h4, p {
 }
 .aiexp{
     position: absolute;
-    top: 67%; 
+    top: 60%; 
     left: 490px; 
     transform: translateY(-50%);
     color: #151515;
@@ -287,7 +287,7 @@ h1, h2, h3, h4, p {
 }
 .aitxt {
     position: absolute;
-    top: 47%; 
+    top: 35%; 
     left: 490px;
     transform: translateY(-50%);
     color: #151515;
@@ -335,3 +335,20 @@ h1, h2, h3, h4, p {
     margin-left: 10px;
     font-size: 25px;
 }
+.animated-text {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeInUp 1s ease-out forwards;
+  }
+  
+  /* Keyframes for the animation */
+  @keyframes fadeInUp {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
